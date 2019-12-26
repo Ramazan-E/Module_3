@@ -1,0 +1,91 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;    
+    overflow: hidden;
+  }
+
+  .navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: 'Alfa Slab One';
+    font-size: 1.5em;
+    color: white;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10 px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius:px;
+
+}
+#text {       
+    margin: 10px;
+    background-color: #635024;
+    font-family: 'Acme';   
+    position: relative;
+}
+
+#nav-list {
+    margin-top: 10px;
+    text-align:center;
+    columns: #995511c49;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    background-color: #AAA5A5;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
+.navbar-toggle .icon-bar{
+    display: block;
+    width:  22px;
+    height: 2px;
+    border-radius: 1px;
+}
